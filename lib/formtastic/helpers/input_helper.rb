@@ -283,7 +283,7 @@ module Formtastic
           when :date
             return :date_select
           when :citext
-            return :text
+            return :string
           end
 
           # Try look for hints in options hash. Quite common senario: Enum keys stored as string in the database.
